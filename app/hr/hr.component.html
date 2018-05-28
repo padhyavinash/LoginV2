@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+      
+       <div class="col-md-6">
+  
+        <h1 class="form-signin-heading">{{ details?.type }} page</h1>
+        <h2 class="form-signin-heading">Welcome {{ details?.name }}</h2>
+  
+        <div class="form-horizontal">
+          <div class="form-group">
+            <label class="col-sm-3 control-label">Full name</label>
+            <p class="form-control-static">{{ details?.name }}</p>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-3 control-label">Email</label>
+            <p class="form-control-static">{{ details?.email }}</p>
+          </div>
+        </div>
+        <a routerLink="/hr_register">Create Candidate</a>
+      </div>
+  
+    </div>
+  </div>
